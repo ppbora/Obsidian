@@ -1,15 +1,29 @@
 {
 	"nodes":[
 		{"id":"34fbcf5ab13538b5","type":"file","file":"ML_note/ML_Model.md","x":-420,"y":60,"width":400,"height":180},
-		{"id":"7cde03aa0d2d3d3f","type":"text","text":"**ML things**","x":-20,"y":-160,"width":220,"height":60},
-		{"id":"727a11c15bc1be39","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Linear regression.md","x":-1280,"y":1120,"width":400,"height":400},
-		{"id":"652d8630d8026f7d","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Regression.md","x":-1080,"y":740,"width":400,"height":220},
-		{"id":"feca9764c7f1b786","type":"file","file":"ML_note/SupervisedLearning/Supervised Learning.md","x":-734,"y":420,"width":314,"height":87}
+		{"id":"7cde03aa0d2d3d3f","type":"text","text":"# **<p style=\"text-align: center;\">ML things</p>**","x":-20,"y":-160,"width":260,"height":100},
+		{"id":"2ce2992e722577de","type":"text","text":"# Turing Test\n- `Turing Test` is the test the human detect which on is AI\n- <span style=\"color: green;\">`ELIZA` : mimicking psychology (talk & reflect)</span>\n-  <span style=\"color: green;\">`PARRY` : imitating paranoid schizophrenia\n</span>\n<span style= \"display: block; text-align: center; font-weight: bold; color: red;\">Simulating Human complex than we think\n</span>\n","x":280,"y":-381,"width":480,"height":221},
+		{"id":"7a33844a9b5dd749","type":"text","text":"# Definition of ML\n<span style= \"display: block; text-align: center;\">\"One of an AI field that allow system to <span style = \"font-weight: bold;\">learn and improve </span> their performance without an explicit programming\"</span>","x":280,"y":-600,"width":480,"height":160},
+		{"id":"feca9764c7f1b786","type":"file","file":"ML_note/SupervisedLearning/Supervised Learning.md","x":-600,"y":360,"width":314,"height":50},
+		{"id":"be4d4b2702745a85","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Polynomial regression.md","x":-1000,"y":720,"width":400,"height":400},
+		{"id":"652d8630d8026f7d","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Regression.md","x":-900,"y":580,"width":200,"height":80},
+		{"id":"727a11c15bc1be39","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Linear regression.md","x":-1400,"y":720,"width":320,"height":400},
+		{"id":"8e3d9588cdc78507","type":"text","text":"# Logistic Regression\n","x":-1760,"y":720,"width":284,"height":400},
+		{"id":"a909c0127a6eb645","type":"text","text":"# Ridge Regression (L2)\na technique used to prevent overfitting in linear models by adding a penalty equivalent to the square of the magnitude of coefficients to the loss function\n\n$SSR+(\\lambda) (^p_{j=1}∑β_j^2)$ \n- SSR : Sum of Squares Regression `differences between predicted value`\n- $\\lambda$ : The Penalty defining how sensitive y is (slope) `can find from cross validaton`\n\t1. If λ=0, it is equivalent to OLS\n\t2. If $\\lambda \\rightarrow \\infty$, the penalty shrinks coefficients closer to zero (slope near 0)\n\nhttps://www.youtube.com/watch?v=Q81RR3yKn30","x":-580,"y":720,"width":360,"height":400},
+		{"id":"4fcb38ec1d8dada3","type":"text","text":"# Lasso Regression (L1)\n","x":-177,"y":720,"width":314,"height":400},
+		{"id":"2c22de7834b7f681","type":"text","text":"  # <span style=\"display:block; text-align:center;\">Regularization <span>","x":-300,"y":595,"width":223,"height":50}
 	],
 	"edges":[
-		{"id":"32c29902b8a1c772","fromNode":"652d8630d8026f7d","fromSide":"bottom","toNode":"727a11c15bc1be39","toSide":"top"},
+		{"id":"32c29902b8a1c772","fromNode":"652d8630d8026f7d","fromSide":"left","toNode":"727a11c15bc1be39","toSide":"top"},
 		{"id":"08368e0c0acf3edc","fromNode":"34fbcf5ab13538b5","fromSide":"bottom","toNode":"feca9764c7f1b786","toSide":"top"},
 		{"id":"28fffda49e1ce47b","fromNode":"feca9764c7f1b786","fromSide":"bottom","toNode":"652d8630d8026f7d","toSide":"top"},
-		{"id":"5f2c292ee59a7e84","fromNode":"7cde03aa0d2d3d3f","fromSide":"bottom","toNode":"34fbcf5ab13538b5","toSide":"top"}
+		{"id":"5f2c292ee59a7e84","fromNode":"7cde03aa0d2d3d3f","fromSide":"bottom","toNode":"34fbcf5ab13538b5","toSide":"top"},
+		{"id":"e79c19086b9f30e7","fromNode":"7cde03aa0d2d3d3f","fromSide":"top","toNode":"2ce2992e722577de","toSide":"left"},
+		{"id":"05a881d2abeb2db0","fromNode":"7cde03aa0d2d3d3f","fromSide":"top","toNode":"7a33844a9b5dd749","toSide":"left"},
+		{"id":"064dfd930abd44e0","fromNode":"652d8630d8026f7d","fromSide":"bottom","toNode":"be4d4b2702745a85","toSide":"top"},
+		{"id":"050cd8d211eb4de8","fromNode":"652d8630d8026f7d","fromSide":"right","toNode":"2c22de7834b7f681","toSide":"left"},
+		{"id":"5a75832a710fe68a","fromNode":"2c22de7834b7f681","fromSide":"bottom","toNode":"4fcb38ec1d8dada3","toSide":"top"},
+		{"id":"e5720d3d7d44397e","fromNode":"2c22de7834b7f681","fromSide":"bottom","toNode":"a909c0127a6eb645","toSide":"top"},
+		{"id":"95f1b7d2d59880b5","fromNode":"652d8630d8026f7d","fromSide":"left","toNode":"8e3d9588cdc78507","toSide":"top"}
 	]
 }

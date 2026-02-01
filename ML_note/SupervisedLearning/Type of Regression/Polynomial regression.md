@@ -1,3 +1,2 @@
-- **syntax** : *y*=a<sub>0</sub>+a<sub>1</sub>x+a<sub>2</sub>x<sup>2</sup>....+a<sub>n</sub>x<sup>n</sup>+c
-- 
-
+- **syntax** : $y=a_0 +a_1x+{a_2}x^2+...+{a_n}x^n$
+![[Polynomial pic.png]]

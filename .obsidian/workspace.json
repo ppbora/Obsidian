@@ -1,132 +1,59 @@
 {
   "main": {
-    "id": "5f0d3bc2fe897045",
+    "id": "9187661109ee8d59",
     "type": "split",
     "children": [
       {
-        "id": "5d9341002ffff0b9",
+        "id": "8c8e08b89954f51a",
         "type": "tabs",
         "children": [
           {
-            "id": "b175e4dc38664570",
+            "id": "6e5e931f316872ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "eb6bdd88ff48b192",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "ML_summary.canvas",
                 "viewState": {
-                  "x": -346.16998197692914,
-                  "y": 1142.353004977307,
-                  "zoom": -0.8076393157868006
+                  "x": -576.0750002774693,
+                  "y": 655.9248535954515,
+                  "zoom": -0.9999999846181565
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "ML_summary"
-            }
-          },
-          {
-            "id": "9b8ca8412a8574f1",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "ML_summary.canvas",
-                "viewState": {
-                  "x": -661.6010521549082,
-                  "y": 1198.0882612786495,
-                  "zoom": -0.20205993330993433
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "ML_summary"
-            }
-          },
-          {
-            "id": "6e5b74dde0e29558",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML_note/SupervisedLearning/Type of Regression/Polynomial regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Polynomial regression"
-            }
-          },
-          {
-            "id": "4d0b41385204842c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML_note/SupervisedLearning/Type of Regression/Linear regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linear regression"
-            }
-          },
-          {
-            "id": "d000afa9a846cf1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML_note/SupervisedLearning/Supervised Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Supervised Learning"
-            }
-          },
-          {
-            "id": "331e81c1b16bb3fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML_note/ML_Model.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ML_Model"
-            }
-          },
-          {
-            "id": "68a25be7a0021af8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML_note/SupervisedLearning/Type of Regression/Regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Regression"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fa9cbd0e3a2367ec",
+    "id": "791e4f45af6632bd",
     "type": "split",
     "children": [
       {
-        "id": "200565bfa01ffd8a",
+        "id": "df0ce6582913cff2",
         "type": "tabs",
         "children": [
           {
-            "id": "595ffeed7ea22dbb",
+            "id": "c57486f5811194b2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -139,7 +66,7 @@
             }
           },
           {
-            "id": "3d971b041c214d7d",
+            "id": "5da3d1380d308097",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -156,7 +83,7 @@
             }
           },
           {
-            "id": "6ae0101a22f81456",
+            "id": "deded86c16f0c78e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -172,20 +99,20 @@
     "width": 300
   },
   "right": {
-    "id": "51bcbaaa5cd3a999",
+    "id": "bad51600933857aa",
     "type": "split",
     "children": [
       {
-        "id": "8f6abc2de41df79f",
+        "id": "223403dbaa9766be",
         "type": "tabs",
         "children": [
           {
-            "id": "b09b2a4e5a3b8e6c",
+            "id": "2fc652d87865c1a7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "ML_summary.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,25 +122,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for ML_summary"
             }
           },
           {
-            "id": "bbc53b230b2e6616",
+            "id": "dc9a8f5b4c33ef72",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "ML_summary.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from ML_summary"
             }
           },
           {
-            "id": "0398f5310e3eabfa",
+            "id": "6b28fa127213384f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -228,7 +155,7 @@
             }
           },
           {
-            "id": "04098db5629d6e14",
+            "id": "7fc66a8a4e3ef24f",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -242,18 +169,18 @@
             }
           },
           {
-            "id": "2fdf634e6531716f",
+            "id": "ee9531a346780f97",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md",
+                "file": "ML_summary.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of ML_summary"
             }
           }
         ]
@@ -274,26 +201,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "595ffeed7ea22dbb",
+  "active": "eb6bdd88ff48b192",
   "lastOpenFiles": [
-    "ML_summary.canvas",
-    "ML_note/SupervisedLearning/Type of Regression/Polynomial regression.md",
-    "ML_note/SupervisedLearning/Supervised Learning.md",
     "ML_note/ML_Model.md",
-    "ML_note/SupervisedLearning/Type of Regression/Random Forest.md",
-    "ML_note/SupervisedLearning/Type of Regression/Random Forest pic.png",
-    "ML_note/SupervisedLearning/Type of Regression/Linear regression.md",
-    "ML_note/SupervisedLearning",
+    "ML_summary.canvas",
     "README.md",
+    "().md",
+    "differences between predicted values.md",
+    "Untitled.md",
+    "ML_note/SupervisedLearning/Polynomial pic.png",
     "ML_note/SupervisedLearning/Type of Regression/Regression.md",
     "ML_note/SupervisedLearning/Type of Regression/Linear regression pic.png",
-    "Pasted image 20260131145810.png",
+    "ML_note/SupervisedLearning/Type of Regression/Polynomial regression.md",
+    "ML_note/SupervisedLearning/Type of Regression/Linear regression.md",
     "ML_note/SupervisedLearning/Type of Regression",
-    "Untitled.base",
-    "ML_note",
-    "obsidian_sync/Obsidian/README.md",
-    "obsidian_sync/Obsidian",
-    "obsidian_sync",
-    "Obsidian/README.md"
+    "ML_note/SupervisedLearning/Supervised Learning.md",
+    "ML_note/SupervisedLearning",
+    "ML_note"
   ]
 }
