@@ -22,20 +22,20 @@
             }
           },
           {
-            "id": "eb6bdd88ff48b192",
+            "id": "3416b1431d9949a6",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "ML_summary.canvas",
+                "file": "02Supervised_learning.canvas",
                 "viewState": {
-                  "x": -71.89830790246504,
-                  "y": 1454.5359017982146,
-                  "zoom": -0.9999999846181564
+                  "x": 747.3155565300652,
+                  "y": 862.4426323015632,
+                  "zoom": -1.1438454210494342
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "ML_summary"
+              "title": "02Supervised_learning"
             }
           }
         ],
@@ -201,14 +201,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "eb6bdd88ff48b192",
+  "active": "3416b1431d9949a6",
   "lastOpenFiles": [
+    "ML_note/SupervisedLearning/multi Classification pic.png",
     "ML_note/ML_Model.md",
-    "ML_summary.canvas",
+    "02Supervised_learning.canvas",
+    "ML_note/SupervisedLearning/binary pic.png",
+    "ML_note/SupervisedLearning/Pasted image 20260201205103.png",
+    "01Intro_ml.canvas",
+    "Untitled.md",
     "README.md",
     "().md",
     "differences between predicted values.md",
-    "Untitled.md",
     "ML_note/SupervisedLearning/Polynomial pic.png",
     "ML_note/SupervisedLearning/Type of Regression/Regression.md",
     "ML_note/SupervisedLearning/Type of Regression/Linear regression pic.png",

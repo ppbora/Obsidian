@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"a71e4ec130716802","type":"text","text":"# Definition of ML\n<span style= \"display: block; text-align: center;\">\"One of an AI field that allow system to <span style = \"font-weight: bold;\">learn and improve </span> their performance without an explicit programming\"</span>","x":-90,"y":-270,"width":480,"height":160},
+		{"id":"c0a67fdc0a7e38c1","type":"text","text":"# Turing Test\n- `Turing Test` is the test the human detect which on is AI\n- <span style=\"color: green;\">`ELIZA` : mimicking psychology (talk & reflect)</span>\n-  <span style=\"color: green;\">`PARRY` : imitating paranoid schizophrenia\n</span>\n<span style= \"display: block; text-align: center; font-weight: bold; color: red;\">Simulating Human complex than we think\n</span>\n","x":-90,"y":-51,"width":480,"height":221},
+		{"id":"5947a6b034facb6d","type":"text","text":"# **<p style=\"text-align: center;\">ML things</p>**","x":-390,"y":170,"width":260,"height":100}
+	],
+	"edges":[
+		{"id":"3f0751f15ccc9252","fromNode":"5947a6b034facb6d","fromSide":"top","toNode":"a71e4ec130716802","toSide":"left"},
+		{"id":"60d8feb8da28b54d","fromNode":"5947a6b034facb6d","fromSide":"top","toNode":"c0a67fdc0a7e38c1","toSide":"left"}
+	]
+}
