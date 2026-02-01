@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"34fbcf5ab13538b5","type":"file","file":"ML_note/ML_Model.md","x":-420,"y":60,"width":400,"height":180},
+		{"id":"7cde03aa0d2d3d3f","type":"text","text":"**ML things**","x":-20,"y":-160,"width":220,"height":60},
+		{"id":"727a11c15bc1be39","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Linear regression.md","x":-1280,"y":1120,"width":400,"height":400},
+		{"id":"652d8630d8026f7d","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Regression.md","x":-1080,"y":740,"width":400,"height":220},
+		{"id":"feca9764c7f1b786","type":"file","file":"ML_note/SupervisedLearning/Supervised Learning.md","x":-734,"y":420,"width":314,"height":87}
+	],
+	"edges":[
+		{"id":"32c29902b8a1c772","fromNode":"652d8630d8026f7d","fromSide":"bottom","toNode":"727a11c15bc1be39","toSide":"top"},
+		{"id":"08368e0c0acf3edc","fromNode":"34fbcf5ab13538b5","fromSide":"bottom","toNode":"feca9764c7f1b786","toSide":"top"},
+		{"id":"28fffda49e1ce47b","fromNode":"feca9764c7f1b786","fromSide":"bottom","toNode":"652d8630d8026f7d","toSide":"top"},
+		{"id":"5f2c292ee59a7e84","fromNode":"7cde03aa0d2d3d3f","fromSide":"bottom","toNode":"34fbcf5ab13538b5","toSide":"top"}
+	]
+}
