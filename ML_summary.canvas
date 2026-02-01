@@ -1,17 +1,19 @@
 {
 	"nodes":[
-		{"id":"34fbcf5ab13538b5","type":"file","file":"ML_note/ML_Model.md","x":-420,"y":60,"width":400,"height":180},
-		{"id":"7cde03aa0d2d3d3f","type":"text","text":"# **<p style=\"text-align: center;\">ML things</p>**","x":-20,"y":-160,"width":260,"height":100},
-		{"id":"2ce2992e722577de","type":"text","text":"# Turing Test\n- `Turing Test` is the test the human detect which on is AI\n- <span style=\"color: green;\">`ELIZA` : mimicking psychology (talk & reflect)</span>\n-  <span style=\"color: green;\">`PARRY` : imitating paranoid schizophrenia\n</span>\n<span style= \"display: block; text-align: center; font-weight: bold; color: red;\">Simulating Human complex than we think\n</span>\n","x":280,"y":-381,"width":480,"height":221},
-		{"id":"7a33844a9b5dd749","type":"text","text":"# Definition of ML\n<span style= \"display: block; text-align: center;\">\"One of an AI field that allow system to <span style = \"font-weight: bold;\">learn and improve </span> their performance without an explicit programming\"</span>","x":280,"y":-600,"width":480,"height":160},
-		{"id":"feca9764c7f1b786","type":"file","file":"ML_note/SupervisedLearning/Supervised Learning.md","x":-600,"y":360,"width":314,"height":50},
-		{"id":"be4d4b2702745a85","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Polynomial regression.md","x":-1000,"y":720,"width":400,"height":400},
-		{"id":"652d8630d8026f7d","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Regression.md","x":-900,"y":580,"width":200,"height":80},
-		{"id":"727a11c15bc1be39","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Linear regression.md","x":-1400,"y":720,"width":320,"height":400},
-		{"id":"8e3d9588cdc78507","type":"text","text":"# Logistic Regression\n","x":-1760,"y":720,"width":284,"height":400},
-		{"id":"a909c0127a6eb645","type":"text","text":"# Ridge Regression (L2)\na technique used to prevent overfitting in linear models by adding a penalty equivalent to the square of the magnitude of coefficients to the loss function\n\n$SSR+(\\lambda) (^p_{j=1}∑β_j^2)$ \n- SSR : Sum of Squares Regression `differences between predicted value`\n- $\\lambda$ : The Penalty defining how sensitive y is (slope) `can find from cross validaton`\n\t1. If λ=0, it is equivalent to OLS\n\t2. If $\\lambda \\rightarrow \\infty$, the penalty shrinks coefficients closer to zero (slope near 0)\n\nhttps://www.youtube.com/watch?v=Q81RR3yKn30","x":-580,"y":720,"width":360,"height":400},
-		{"id":"4fcb38ec1d8dada3","type":"text","text":"# Lasso Regression (L1)\n","x":-177,"y":720,"width":314,"height":400},
-		{"id":"2c22de7834b7f681","type":"text","text":"  # <span style=\"display:block; text-align:center;\">Regularization <span>","x":-300,"y":595,"width":223,"height":50}
+		{"id":"feca9764c7f1b786","type":"file","file":"ML_note/SupervisedLearning/Supervised Learning.md","x":120,"y":320,"width":314,"height":50},
+		{"id":"7a33844a9b5dd749","type":"text","text":"# Definition of ML\n<span style= \"display: block; text-align: center;\">\"One of an AI field that allow system to <span style = \"font-weight: bold;\">learn and improve </span> their performance without an explicit programming\"</span>","x":1000,"y":-640,"width":480,"height":160},
+		{"id":"2ce2992e722577de","type":"text","text":"# Turing Test\n- `Turing Test` is the test the human detect which on is AI\n- <span style=\"color: green;\">`ELIZA` : mimicking psychology (talk & reflect)</span>\n-  <span style=\"color: green;\">`PARRY` : imitating paranoid schizophrenia\n</span>\n<span style= \"display: block; text-align: center; font-weight: bold; color: red;\">Simulating Human complex than we think\n</span>\n","x":1000,"y":-421,"width":480,"height":221},
+		{"id":"7cde03aa0d2d3d3f","type":"text","text":"# **<p style=\"text-align: center;\">ML things</p>**","x":700,"y":-200,"width":260,"height":100},
+		{"id":"34fbcf5ab13538b5","type":"file","file":"ML_note/ML_Model.md","x":300,"y":20,"width":400,"height":180},
+		{"id":"8e3d9588cdc78507","type":"text","text":"# Logistic Regression\n","x":-1760,"y":580,"width":284,"height":400},
+		{"id":"727a11c15bc1be39","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Linear regression.md","x":-1400,"y":580,"width":320,"height":400},
+		{"id":"652d8630d8026f7d","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Regression.md","x":-900,"y":440,"width":200,"height":80},
+		{"id":"edc4e9dbb09e2940","type":"text","text":"# Classification","x":1117,"y":440,"width":247,"height":80},
+		{"id":"be4d4b2702745a85","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Polynomial regression.md","x":-1000,"y":580,"width":400,"height":400},
+		{"id":"a909c0127a6eb645","type":"text","text":"# Ridge Regression (L2)\nTo reduce model complexity and handle **multicollinearity** (when your input variables are highly correlated). *When most variables have a small effect.*\n\n$SSR+(\\lambda) (^p_{j=1}∑β_j^2)$ \n- SSR : Sum of Squares Regression `differences between predicted value`\n- $\\lambda$ : The Penalty (like volume knob) defining how sensitivity the slop is `can be determined cross validaton`\n\t1. If λ=0, it is equivalent to OLS\n\t2. If $\\lambda \\rightarrow \\infty$, the penalty shrinks coefficients closer to zero <span style = \"font-weight:bold;color : red;\">(slope near 0, but can't be 0) </span>\n- $^p_{j=1}∑β_j^2$ : slope<sup>2</sup>\n\nhttps://www.youtube.com/watch?v=Q81RR3yKn30","x":-560,"y":880,"width":376,"height":400},
+		{"id":"9d2c716942efd98d","type":"text","text":"# Elastic Net Regression\nKeeps or removes correlated groups together.*When you have many variables that are highly correlated.*\n\n$SSR+(\\lambda_1) (^p_{i=1}∑β_i^2)+ (\\lambda_2) | ^p_{j=1}∑β_j |$ \n- if $\\lambda_1 = 0, \\lambda_2 = 0$ : OLS\n- if $\\lambda_1 > 0, \\lambda_2 = 0$ : Ridge\n- if $\\lambda_1 = 0, \\lambda_2 > 0$ : Lasso\n- - if $\\lambda_1 > 0, \\lambda_2 > 0$ : Hybrid","x":-281,"y":1280,"width":331,"height":230},
+		{"id":"4fcb38ec1d8dada3","type":"text","text":"# Lasso Regression (L1)\nTo choose the best variables. *When only a few variables are actually important.*\n\n$SSR+(\\lambda) | ^p_{j=1}∑β_j |$ \n- $| ^p_{j=1}∑β_j |$ : |slope|\n- if $\\lambda \\rightarrow \\infty$ , <span style = \"font-weight: bold; color:red;\"> the penalty can be zero </span>","x":-40,"y":880,"width":337,"height":400},
+		{"id":"2c22de7834b7f681","type":"text","text":"  # <span style=\"font-weight:bold;display:block; text-align:center;\">Regularization </span>\n\n  a technique used to prevent overfitting in linear models by adding a penalty equivalent.\n\nit forces them to shrink, which creates a simpler, more stable model that performs better on new information.","x":-291,"y":580,"width":352,"height":260}
 	],
 	"edges":[
 		{"id":"32c29902b8a1c772","fromNode":"652d8630d8026f7d","fromSide":"left","toNode":"727a11c15bc1be39","toSide":"top"},
@@ -21,9 +23,11 @@
 		{"id":"e79c19086b9f30e7","fromNode":"7cde03aa0d2d3d3f","fromSide":"top","toNode":"2ce2992e722577de","toSide":"left"},
 		{"id":"05a881d2abeb2db0","fromNode":"7cde03aa0d2d3d3f","fromSide":"top","toNode":"7a33844a9b5dd749","toSide":"left"},
 		{"id":"064dfd930abd44e0","fromNode":"652d8630d8026f7d","fromSide":"bottom","toNode":"be4d4b2702745a85","toSide":"top"},
-		{"id":"050cd8d211eb4de8","fromNode":"652d8630d8026f7d","fromSide":"right","toNode":"2c22de7834b7f681","toSide":"left"},
+		{"id":"050cd8d211eb4de8","fromNode":"652d8630d8026f7d","fromSide":"right","toNode":"2c22de7834b7f681","toSide":"top"},
 		{"id":"5a75832a710fe68a","fromNode":"2c22de7834b7f681","fromSide":"bottom","toNode":"4fcb38ec1d8dada3","toSide":"top"},
 		{"id":"e5720d3d7d44397e","fromNode":"2c22de7834b7f681","fromSide":"bottom","toNode":"a909c0127a6eb645","toSide":"top"},
-		{"id":"95f1b7d2d59880b5","fromNode":"652d8630d8026f7d","fromSide":"left","toNode":"8e3d9588cdc78507","toSide":"top"}
+		{"id":"95f1b7d2d59880b5","fromNode":"652d8630d8026f7d","fromSide":"left","toNode":"8e3d9588cdc78507","toSide":"top"},
+		{"id":"ca020574823c3c25","fromNode":"feca9764c7f1b786","fromSide":"bottom","toNode":"edc4e9dbb09e2940","toSide":"top"},
+		{"id":"158a0eedb0fa351a","fromNode":"2c22de7834b7f681","fromSide":"bottom","toNode":"9d2c716942efd98d","toSide":"top"}
 	]
 }
