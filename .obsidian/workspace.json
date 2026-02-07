@@ -29,9 +29,9 @@
               "state": {
                 "file": "ML_summary.canvas",
                 "viewState": {
-                  "x": -1421.366683450559,
-                  "y": 1338.5875616631652,
-                  "zoom": -0.33333332307877095
+                  "x": 2003.4566077822678,
+                  "y": 659.5921370865799,
+                  "zoom": 0.31882603076317384
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -203,14 +203,17 @@
   },
   "active": "eb6bdd88ff48b192",
   "lastOpenFiles": [
+    "ML_note/SupervisedLearning/KNN pic.png",
+    "ML_note/SupervisedLearning/Polynomial pic.png",
+    "ML_summary.canvas",
+    "ML_note/SupervisedLearning/Random Forest pic.png",
+    "ML_note/SupervisedLearning/Decision Tree pic.png",
     "ML_note/SupervisedLearning/logistic regression pic.png",
     "ML_note/ML_Model.md",
-    "ML_summary.canvas",
     "README.md",
     "().md",
     "differences between predicted values.md",
     "Untitled.md",
-    "ML_note/SupervisedLearning/Polynomial pic.png",
     "ML_note/SupervisedLearning/Type of Regression/Regression.md",
     "ML_note/SupervisedLearning/Type of Regression/Linear regression pic.png",
     "ML_note/SupervisedLearning/Type of Regression/Polynomial regression.md",
