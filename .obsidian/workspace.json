@@ -29,9 +29,9 @@
               "state": {
                 "file": "ML_summary.canvas",
                 "viewState": {
-                  "x": -71.89830790246504,
-                  "y": 1454.5359017982146,
-                  "zoom": -0.9999999846181564
+                  "x": -1421.366683450559,
+                  "y": 1338.5875616631652,
+                  "zoom": -0.33333332307877095
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -203,6 +203,7 @@
   },
   "active": "eb6bdd88ff48b192",
   "lastOpenFiles": [
+    "ML_note/SupervisedLearning/logistic regression pic.png",
     "ML_note/ML_Model.md",
     "ML_summary.canvas",
     "README.md",

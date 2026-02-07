@@ -5,7 +5,6 @@
 		{"id":"2ce2992e722577de","type":"text","text":"# Turing Test\n- `Turing Test` is the test the human detect which on is AI\n- <span style=\"color: green;\">`ELIZA` : mimicking psychology (talk & reflect)</span>\n-  <span style=\"color: green;\">`PARRY` : imitating paranoid schizophrenia\n</span>\n<span style= \"display: block; text-align: center; font-weight: bold; color: red;\">Simulating Human complex than we think\n</span>\n","x":1000,"y":-421,"width":480,"height":221},
 		{"id":"7cde03aa0d2d3d3f","type":"text","text":"# **<p style=\"text-align: center;\">ML things</p>**","x":700,"y":-200,"width":260,"height":100},
 		{"id":"34fbcf5ab13538b5","type":"file","file":"ML_note/ML_Model.md","x":300,"y":20,"width":400,"height":180},
-		{"id":"8e3d9588cdc78507","type":"text","text":"# Logistic Regression\n","x":-1760,"y":580,"width":284,"height":400},
 		{"id":"727a11c15bc1be39","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Linear regression.md","x":-1400,"y":580,"width":320,"height":400},
 		{"id":"652d8630d8026f7d","type":"file","file":"ML_note/SupervisedLearning/Type of Regression/Regression.md","x":-900,"y":440,"width":200,"height":80},
 		{"id":"edc4e9dbb09e2940","type":"text","text":"# Classification","x":1117,"y":440,"width":247,"height":80},
@@ -13,7 +12,13 @@
 		{"id":"a909c0127a6eb645","type":"text","text":"# Ridge Regression (L2)\nTo reduce model complexity and handle **multicollinearity** (when your input variables are highly correlated). *When most variables have a small effect.*\n\n$SSR+(\\lambda) (^p_{j=1}∑β_j^2)$ \n- SSR : Sum of Squares Regression `differences between predicted value`\n- $\\lambda$ : The Penalty (like volume knob) defining how sensitivity the slop is `can be determined cross validaton`\n\t1. If λ=0, it is equivalent to OLS\n\t2. If $\\lambda \\rightarrow \\infty$, the penalty shrinks coefficients closer to zero <span style = \"font-weight:bold;color : red;\">(slope near 0, but can't be 0) </span>\n- $^p_{j=1}∑β_j^2$ : slope<sup>2</sup>\n\nhttps://www.youtube.com/watch?v=Q81RR3yKn30","x":-560,"y":880,"width":376,"height":400},
 		{"id":"9d2c716942efd98d","type":"text","text":"# Elastic Net Regression\nKeeps or removes correlated groups together.*When you have many variables that are highly correlated.*\n\n$SSR+(\\lambda_1) (^p_{i=1}∑β_i^2)+ (\\lambda_2) | ^p_{j=1}∑β_j |$ \n- if $\\lambda_1 = 0, \\lambda_2 = 0$ : OLS\n- if $\\lambda_1 > 0, \\lambda_2 = 0$ : Ridge\n- if $\\lambda_1 = 0, \\lambda_2 > 0$ : Lasso\n- - if $\\lambda_1 > 0, \\lambda_2 > 0$ : Hybrid","x":-281,"y":1280,"width":331,"height":230},
 		{"id":"4fcb38ec1d8dada3","type":"text","text":"# Lasso Regression (L1)\nTo choose the best variables. *When only a few variables are actually important.*\n\n$SSR+(\\lambda) | ^p_{j=1}∑β_j |$ \n- $| ^p_{j=1}∑β_j |$ : |slope|\n- if $\\lambda \\rightarrow \\infty$ , <span style = \"font-weight: bold; color:red;\"> the penalty can be zero </span>","x":-40,"y":880,"width":337,"height":400},
-		{"id":"2c22de7834b7f681","type":"text","text":"  # <span style=\"font-weight:bold;display:block; text-align:center;\">Regularization </span>\n\n  a technique used to prevent overfitting in linear models by adding a penalty equivalent.\n\nit forces them to shrink, which creates a simpler, more stable model that performs better on new information.","x":-291,"y":580,"width":352,"height":260}
+		{"id":"2c22de7834b7f681","type":"text","text":"  # <span style=\"font-weight:bold;display:block; text-align:center;\">Regularization </span>\n\n  a technique used to prevent overfitting in linear models by adding a penalty equivalent.\n\nit forces them to shrink, which creates a simpler, more stable model that performs better on new information.","x":-291,"y":580,"width":352,"height":260},
+		{"id":"4bd24465f533ed12","type":"text","text":"# $R^2$\n- $R^2 = \\frac{Var_{mean}-Var_{line}}{Var_{mean}}$\n- Range : $-1<R^2<1$\n- Indicate how well the model \"fits\" the observed data\n- $R^2$ is closed to $|1|$ = the model fits well\n","x":-1400,"y":1060,"width":320,"height":240},
+		{"id":"8e3d9588cdc78507","type":"text","text":"# Logistic Regression\n- Predict `True` or `False` (Not continuous variable)![[logistic regression pic.png]]","x":-1840,"y":580,"width":284,"height":400},
+		{"id":"51f839fa4ac44ecf","x":-1668,"y":1060,"width":224,"height":240,"type":"text","text":"# Odds\n### Odds = $\\frac {Happen}{NotHappen}$\n### Odds = $\\frac{P(E)}{1-P(E)}$\n\nP(E) = $\\frac {Happen}{All}$\n\n"},
+		{"id":"7de165c96f10f6ed","type":"text","text":"# Log(Odds)\n#### Reason why\n1. **Symmetry :** \n   log(1/6)=-log(6/1)\n2. **Linearity :** \n   Odds is linear, \n   While others is curve\n3. **Interpretability :** \n   Hard to read","x":-1980,"y":1060,"width":252,"height":240},
+		{"id":"a554a432753d3a0a","x":-1668,"y":1340,"width":224,"height":220,"type":"text","text":"# Odd ratios"},
+		{"id":"6a759bfd99f39f68","type":"text","text":"# Log(Odd ratios)","x":-1980,"y":1340,"width":252,"height":220}
 	],
 	"edges":[
 		{"id":"32c29902b8a1c772","fromNode":"652d8630d8026f7d","fromSide":"left","toNode":"727a11c15bc1be39","toSide":"top"},
@@ -28,6 +33,11 @@
 		{"id":"e5720d3d7d44397e","fromNode":"2c22de7834b7f681","fromSide":"bottom","toNode":"a909c0127a6eb645","toSide":"top"},
 		{"id":"95f1b7d2d59880b5","fromNode":"652d8630d8026f7d","fromSide":"left","toNode":"8e3d9588cdc78507","toSide":"top"},
 		{"id":"ca020574823c3c25","fromNode":"feca9764c7f1b786","fromSide":"bottom","toNode":"edc4e9dbb09e2940","toSide":"top"},
-		{"id":"158a0eedb0fa351a","fromNode":"2c22de7834b7f681","fromSide":"bottom","toNode":"9d2c716942efd98d","toSide":"top"}
+		{"id":"158a0eedb0fa351a","fromNode":"2c22de7834b7f681","fromSide":"bottom","toNode":"9d2c716942efd98d","toSide":"top"},
+		{"id":"8c17346520880bd2","fromNode":"727a11c15bc1be39","fromSide":"bottom","toNode":"4bd24465f533ed12","toSide":"top"},
+		{"id":"bedba68672fe853f","fromNode":"8e3d9588cdc78507","fromSide":"bottom","toNode":"7de165c96f10f6ed","toSide":"top"},
+		{"id":"4535007cb5dac467","fromNode":"8e3d9588cdc78507","fromSide":"bottom","toNode":"51f839fa4ac44ecf","toSide":"top"},
+		{"id":"7f341a2a532c799a","fromNode":"8e3d9588cdc78507","fromSide":"bottom","toNode":"a554a432753d3a0a","toSide":"top"},
+		{"id":"554a2e1cf73740d5","fromNode":"8e3d9588cdc78507","fromSide":"bottom","toNode":"6a759bfd99f39f68","toSide":"top"}
 	]
 }
